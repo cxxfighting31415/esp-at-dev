@@ -793,7 +793,6 @@ static uint8_t at_setup_cmd_udp_send(uint8_t para_num)
     socklen_t addr_len = sizeof(dest_addr);
     int ret;
     uint8_t raw_data[UDP_SEND_MAX_PAYLOAD];
-
     int idx = 0;
     int32_t tmp = 0;
 
